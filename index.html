@@ -3,86 +3,113 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="style.css" rel="stylesheet">
     <title>tower2000ポートフォリオ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
   </head>
   <body>
-    <h1>tower2000</h1>
-    <img src="d8889b9d-private.png ">
-    <h2>About</h2>
-    <p>
-      ゲームが好き。<br>
-      じぶんが面白いと思えるゲームを作りたい。
-    </p>
+    <div class="container"> <header>
+        <h1>tower2000</h1>
+        <img src="d8889b9d-private.png" alt="プロフィール画像" class="profile-img">
+      </header>
 
-    <h3>Profile</h3>
-    <ul>
-      <li>tower2000</li>
-      <li>神奈川県</li>
-      <li>得意領域（動画編集など）</li>
-    </ul>
+      <section>
+        <h2>About</h2>
+        <p>
+          ゲームが好き。<br>
+          自分が面白いと思えるゲームを作りたい。
+        </p>
 
-    <h3>好きなゲーム</h3>
-    <table>
-      <tr>
-        <th>OS</th>
-        <td>Windows, Ubuntu など</td>
-      </tr>
-      <tr>
-        <th>Engine, Frameworks</th>
-        <td>Node.js, Express など</td>
-      </tr>
-      <tr>
-        <th>Tool, MiddleWare</th>
-        <td>AdobePremierePro など</td>
-      </tr>
-      <tr>
-        <th>資格・免許</th>
-        <td>普通自動車第一種運転免許（AT限定）</td>
-      </tr>
-    </table>
-
-    <h3>Works</h3>
-    <p>アピールできる活動内容を書きましょう。</p>
-    <ul>
-      <li><a href="https://github.com/">GitHub</a></li>
-      <li><a href="https://qiita.com/">Qiita</a></li>
-      <li><a href="https://zenn.dev/">Zenn</a></li>
-      <li>
-        作った作品
-        <ul>
-          <li><a href="https://example.com/">作品 1</a></li>
-          <li><a href="https://example.com/">作品 2</a></li>
+        <h3>Profile</h3>
+        <ul class="profile-list">
+          <li>tower2000</li>
+          <li>神奈川県</li>
+          <li>得意領域（動画編集など）</li>
         </ul>
-      </li>
-    </ul>
+      </section>
 
-    <h3>Contact</h3>
-    <p> SNS </p>
-    <ul>
-     <li><a href="https://x.com/tower569021">X(旧 Twitter)</a></li>
-    </ul>
+　　　<section>
+        <h3>Skills</h3>
+        <table>
+          <tr>
+            <th>使用ソフト</th>
+            <td>Adobe Premiere Pro, Adobe Photoshop</td>
+          </tr>
+          <tr>
+            <th>資格・免許</th>
+            <td>
+              普通自動二輪車免許（MT）<br>
+              普通自動車第一種運転免許（AT限定）
+            </td>
+          </tr>
+        </table>
+      </section>
 
-    <h3>History</h3>
-    <p>学歴、職歴、アルバイト、インターン経験など。</p>
-    <table>
-      <tr>
-        <th>2019 年</th>
-        <td> 日本航空高等学校</a> 卒業</td>
-      </tr>
-      <tr>
-        <th>2024 年</th>
-        <td>ZEN大学</a> 入学</td>
-      </tr>
-      <tr>
-        <th>2020 年</th>
-        <td>株式会社OK パート</td>
-      </tr>
-    </table>
+<section>
+        <h3>好きなゲーム</h3>
+        <div class="card-grid">
+          <div class="card">
+            <strong>Hollow Knight</strong>
+            <span>Metroidvania</span>
+          </div>
+          <div class="card">
+            <strong>Hollow Knight: Silksong</strong>
+            <span>Action / Adventure</span>
+          </div>
+          <div class="card">
+            <strong>星のカービィシリーズ</strong>
+            <span>Action</span>
+          </div>
+        </div>
+      </section>
 
+      <section>
+        <h3>Contact</h3>
+        <p>SNSでのご連絡はこちら</p>
+        <ul class="sns-list">
+         <li><a href="https://x.com/tower569021" class="btn">X (旧 Twitter)</a></li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>History</h3>
+        <table>
+          <tr>
+            <th>2019 年</th>
+            <td>日本航空高等学校 卒業</td>
+          </tr>
+          <tr>
+            <th>2020 年</th>
+            <td>株式会社OK パート</td>
+          </tr>
+          <tr>
+            <th>2024 年</th>
+            <td>ZEN大学 入学</td>
+          </tr>
+        </table>
+      </section>
+      
+      <section>
         <h3>好きな動画</h3>
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/Q6is6K8jbho?si=pQ80pgXqMlU-kyZq&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="video-wrapper">
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/Q6is6K8jbho?si=pQ80pgXqMlU-kyZq&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <section>
         <h3>Open Processing</h3>
-　　<iframe src="https://openprocessing.org/sketch/2790406/embed/" width="600" height="600"></iframe>
+        <div class="video-wrapper">
+    　　   <iframe src="https://openprocessing.org/sketch/2790406/embed/" width="600" height="600"></iframe>
+        </div>
+      </section>
+
+      <footer>
+        <small>&copy; 2024 tower2000</small>
+      </footer>
+
+    </div></body>
+</html>
   </body>
 </html>
