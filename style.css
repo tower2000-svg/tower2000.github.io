@@ -77,15 +77,16 @@ h3 {
 /* --------------------
       プロフィール画像
 -------------------- */
+/* プロフィール画像を丸くする設定 */
 .profile-img {
   display: block;
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 50%; /* 丸くする */
-  margin: 0 auto 30px;
-  border: 4px solid #fff;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 150px;         /* 幅 */
+  height: 150px;        /* 高さ（幅と同じにする） */
+  object-fit: cover;    /* 重要：枠に合わせてトリミング（歪み防止） */
+  border-radius: 50%;   /* 完全な丸にする */
+  margin: 0 auto 30px;  /* 中央寄せと下の余白 */
+  border: 4px solid #fff; /* 白いフチをつける */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* 影をつけて浮き上がらせる */
 }
 
 /* --------------------
